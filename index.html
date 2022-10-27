@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>3AM-Tunes</title>
+
+  <link rel="icon" href="/images/favicon.png">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <style>
+    .ihover {
+        background-color: black;
+        display: flex;
+        width: 100px;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        transition: transform ease 300ms;
+        border: 10px;
+    }
+
+    .ihover:hover {
+        transform: translate(0, -10px);
+        background-color: rgb(55, 55, 56);
+        color: white;
+    }
+
+
+    .ihoverbig {
+        background-color: black;
+        display: flex;
+        width: 400px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        transition: transform ease 300ms;
+
+        border: 1px;
+        border-radius: 10px;
+    }
+
+    .ihoverbig:hover {
+        transform: translate(0, -10px);
+        background-color: rgb(55, 55, 56);
+    }
+  </style>
+</head>
+<body>
+    <p id="id01">
+        <font size="+4">3AM-Tunes</font>
+    </p>
+
+    <div id="id02">
+        <p id="id02-1">
+            3AM-Tunes is a Discord Music Bot developed by your average Discord user
+            Sleep otherwise known as Zz or IsTired and has a web of himself <a href="https://istired.github.io/Web/home.html" style="color: white;">here</a>. 
+            <br>
+            But enough about the developer, (techy stuff here so read if you want) 
+            3AM-Tunes uses node.js so it can use disocrd.js and distube (which are both great)
+            to run
+            <br>
+            and can use spotify links using spotify API, and on top of all that it uses Daki as a host (aslo amazing)
+        </p>
+    </div>
+
+    <div id="idbuttons">
+    <button onclick="location.href='https://dash.daki.cc/'" class="ihover" id="id03">
+        Daki Host
+    </button>
+
+    <div id="brk"></div>
+
+    <button onclick="location.href='https://nodejs.org/en/'" class="ihover" id="id04">
+        Node.js
+    </button>
+
+    <div id="brk"></div>
+
+    <button onclick="location.href='https://developer.spotify.com/dashboard/login'" class="ihover" id="id05">
+        Spotify
+    </button>
+    </div>
+
+    
+
+    <div id="id06">
+        <font size="+3">Prefix Commands</font>
+    </div>
+
+    <div id="idbuttons2">
+        <button class="ihoverbig" id="bt1">
+            <p>
+                <font size="+2">-play &lt;song name&gt;</font>
+                <font size="-1">
+                    <br> Can also use -p, adds the bot to the VC and plays requested 
+                    <br> song, can also use a spotify link in place of &lt;song name&gt;.
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt2">
+            <p>
+                <font size="+2">-pause</font>
+                <font size="-1">
+                    <br> Pauses the currnet song, keeps songs in queue, use -resume to unpause
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt3">
+            <p>
+                <font size="+2">-resume</font>
+                <font size="-1">
+                    <br> Resumes the currnet song, after being paused
+                </font>
+            </p>
+        </button>
+    </div>
+
+
+
+    <div id="idbuttons3">
+        <button class="ihoverbig" id="bt1">
+            <p>
+                <font size="+2">-queue</font>
+                <font size="-1">
+                    <br> Can also use -q, shows the current queue in order with time
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt2">
+            <p>
+                <font size="+2">-stop</font>
+                <font size="-1">
+                    <br> Clears the queue and stops the songs
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt3">
+            <p>
+                <font size="+2">-loop</font>
+                <font size="-1">
+                    <br> Loops the current song till -stop is used
+                </font>
+            </p>
+        </button>
+    </div>
+
+
+
+    <div id="idbuttons4">
+        <button class="ihoverbig" id="bt1">
+            <p>
+                <font size="+2">-skip</font>
+                <font size="-1">
+                    <br> Skips to the next song in the queue, and removes the song that skipped
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt2">
+            <p>
+                <font size="+2">-fastforward &lt;time&gt;</font>
+                <font size="-1">
+                    <br> Skips through a certain amount of time in seconds, i.e. -fastforward 10
+                    <br> Can also use -ff -timeskip -ts -forward -f
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt3">
+            <p>
+                <font size="+2">-skipto &lt;song number&gt;</font>
+                <font size="-1">
+                    <br> Skips to a certain song in the queue, i.e. -skipto 3
+                    <br> Can also use -st
+                </font>
+            </p>
+        </button>
+    </div>
+
+    <div id="idbuttons5">
+        <button class="ihoverbig" id="bt4">
+            <p>
+                <font size="+2">-filter &lt;filter type&gt;</font>
+                <font size="-1">
+                    <br> Gives the queue a filter, cahnging the way the song sounds, i.e. -filter nightcore
+                    <br> Filter types: nightcore, 3D, bassboost, echo, karaoke, vaporwave
+                    <br> 
+                </font>
+            </p>
+        </button>
+    </div>
+
+    <div id="id07">
+        <font size="+3">Slash Commands</font>
+    </div>
+
+    <div id="idbuttons6">
+        <button class="ihoverbig" id="bt1">
+            <p>
+                <font size="+2">/help</font>
+                <font size="-1">
+                    <br> 
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt2">
+            <p>
+                <font size="+2">/ping</font>
+                <font size="-1">
+                    <br> Replies with pong and the latency(ping)
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt3">
+            <p>
+                <font size="+2">/issue</font>
+                <font size="-1">
+                    <br> gives a link to the issue page on github
+                </font>
+            </p>
+        </button>
+    </div>
+
+    <div id="idbuttons7">
+        <button class="ihoverbig" id="bt1">
+            <p>
+                <font size="+2">/suggest</font>
+                <font size="-1">
+                    <br> Gives a to github where you can suggest a feature
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt2">
+            <p>
+                <font size="+2">/server</font>
+                <font size="-1">
+                    <br> Gives info on the server you use the command in
+                </font>
+            </p>
+        </button>
+
+        <div id="brk"></div>
+
+        <button class="ihoverbig" id="bt3">
+            <p>
+                <font size="+2">/servers</font>
+                <font size="-1">
+                    <br> Shows how many servers the bot is in
+                </font>
+            </p>
+        </button>
+    </div>
+
+    <div id="brk"></div>
+
+</body>
+
+</html>
+\

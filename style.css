@@ -1,0 +1,120 @@
+body {
+    background-color: #000000;
+} #id01 {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} #id02 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} #id02-1 {
+    text-align: center;
+
+    position: relative;
+
+    width: 600px;
+} #idbuttons {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} #id03 {
+    border: 1px;
+    border-radius: 10px;
+
+    position: relative;
+} #id04 {
+    border: 1px;
+    border-radius: 10px;
+
+    position: relative;
+} #id05 {
+    border: 1px;
+    border-radius: 10px;
+
+    position: relative;
+} 
+
+#id06 {
+    color: white;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: bold;
+
+    position: relative;
+    left: 25%;
+
+    top: 60px;
+
+    width: 500px;
+} #idbuttons2 {
+    position: relative;
+    top: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} #idbuttons3 {
+    position: relative;
+    top: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} #idbuttons4 {
+    position: relative;
+    top: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} #idbuttons5 {
+    position: relative;
+    top: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} #id07 {
+    color: white;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: bold;
+
+    position: relative;
+    left: 25%;
+
+    top: 160px;
+
+    width: 500px;
+} #idbuttons6 {
+    position: relative;
+    top: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} #idbuttons7 {
+    position: relative;
+    top: 230px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#brk {
+    width: 10px;
+}
